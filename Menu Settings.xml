@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Settings component="StartMenu" version="4.3.1">
+	<MenuStyle value="Win7"/>
+	<MouseClick value="ClassicMenu"/>
+	<ShiftRight value="1"/>
+	<AllProgramsMetro value="0"/>
+	<FoldersFirst value="0"/>
+	<StartScreenShortcut value="0"/>
+	<MainSortZA value="0"/>
+	<UserPicturePath value=""/>
+	<InvertMetroIcons value="0"/>
+	<MainMenuAnimation value="Fade"/>
+	<MainMenuAnimationSpeed value="50"/>
+	<SubMenuAnimation value="Fade"/>
+	<FontSmoothing value="ClearType"/>
+	<EnableGlass value="1"/>
+	<GlassOverride value="0"/>
+	<GlassColor value="16765440"/>
+	<GlassOpacity value="40"/>
+	<SkinW7 value="Tenified"/>
+	<SkinVariationW7 value=""/>
+	<SkinOptionsW7>
+		<Line>USER_IMAGE=1</Line>
+		<Line>SMALL_ICONS=0</Line>
+		<Line>LARGE_FONT=0</Line>
+		<Line>ICON_FRAMES=0</Line>
+	</SkinOptionsW7>
+	<EnableStartButton value="1"/>
+	<StartButtonType value="CustomButton"/>
+	<StartButtonPath value="F:\Download\Original (Blue).png"/>
+	<CustomTaskbar value="0"/>
+	<TaskbarLook value="Transparent"/>
+	<SkipMetro value="1"/>
+</Settings>
