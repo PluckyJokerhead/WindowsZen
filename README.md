@@ -6,4 +6,6 @@ Windows Zen's aim is to allow users to easily make Windows 10 more like Windows 
 * Classic Shell installation, with my preferred theme & settings (looks like a more modern Windows 7, black by default)
 * Disabling of Windows 10's telemetry. If you're serious about that stuff you might want to use [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) as well.
 * Windows 7 Sounds. Who doesn't love that 'duDU' when you plug your phone in? I'm not sure what the rules are on distributing old Windows sounds, so this may have to be removed in the future. It's probably fine though.
+* Change default programs to ones from Windows 7. Sadly some aren't on Windows anymore though, like Windows Photo Viewer.
+* Disable forced updates, to make updates act more like Windows 7 (asks you when you want to install, and gives the option to not install the update at all)
 * Not sure what else, feel free to suggest stuff.
