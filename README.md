@@ -8,4 +8,5 @@ Windows Zen's aim is to allow users to easily make Windows 10 more like Windows 
 * Windows 7 Sounds. Who doesn't love that 'duDU' when you plug your phone in? I'm not sure what the rules are on distributing old Windows sounds, so this may have to be removed in the future. It's probably fine though.
 * Change default programs to ones from Windows 7. Sadly some aren't on Windows anymore though, like Windows Photo Viewer.
 * Disable forced updates, to make updates act more like Windows 7 (asks you when you want to install, and gives the option to not install the update at all)
+* Attempt to revert right click menus on taskebar to classic windows ones (this was changed in the Spring Creator's Update and I hate it)
 * Not sure what else, feel free to suggest stuff.
