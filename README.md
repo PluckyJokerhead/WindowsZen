@@ -10,3 +10,5 @@ Windows Zen's aim is to allow users to easily make Windows 10 more like Windows 
 * Disable forced updates, to make updates act more like Windows 7 (asks you when you want to install, and gives the option to not install the update at all)
 * Attempt to revert right click menus on taskebar to classic windows ones (this was changed in the Spring Creator's Update and I hate it)
 * Not sure what else, feel free to suggest stuff.
+
+![logo](icon.png "Windows Zen icon")
