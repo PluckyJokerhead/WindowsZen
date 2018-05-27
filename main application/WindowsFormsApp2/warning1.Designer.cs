@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(warning1));
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -41,13 +42,14 @@
             this.label1.Text = "Remember to install Classic Shell before applying the settings!";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // dialog
+            // warning1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(356, 83);
             this.Controls.Add(this.label1);
-            this.Name = "dialog";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "warning1";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
