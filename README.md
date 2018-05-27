@@ -1,5 +1,7 @@
 # **Windows Zen**
 
+![logo](icon.png "Windows Zen icon")
+
 Windows Zen's aim is to allow users to easily make Windows 10 more like Windows 7 - by changing the sounds, adding a more functional Start Menu ([Classic Shell](https://sourceforge.net/projects/classicshell/?source=directory)) etc. It was created because every time I install Windows 10 I go through a process of installing Classic Shell, disabling telemetry, and applying a lot of other tweaks to make my experience more enjoyable; to make this process simpler I thought I'd make a program to do it for me.
 
 ## Current intended tweaks:
