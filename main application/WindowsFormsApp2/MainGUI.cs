@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.Net;
 using System.Runtime.InteropServices;
+using System.IO;
 
 namespace WindowsFormsApp2
 {
@@ -165,6 +166,37 @@ namespace WindowsFormsApp2
         private void button2_Click(object sender, EventArgs e)
         {
             //CLASSIC SHELL CONFIG
+
+            var folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            MessageBox.Show("Select your Classic Shell directory.");
+            DialogResult result = folderBrowserDialog1.ShowDialog();
+            if(result == DialogResult.OK)
+            {
+                string skinpath1 = "Tenified.skin7";
+                string skinpath2 = (folderBrowserDialog1.SelectedPath);
+                Directory.CreateDirectory(skinpath2 + "\\Skins");
+                string skinpath3 = (folderBrowserDialog1.SelectedPath + "\\Skins\\Tenified.skin7");
+                if (File.Exists(skinpath3))
+                {
+                    Console.WriteLine("file exists");
+                }
+                else
+                {
+                    File.Copy(skinpath1, skinpath3);
+                }
+            }
+            var pathwithEnv = @"%USERPROFILE%\\icon.png";
+            var iconpath = Environment.ExpandEnvironmentVariables(pathwithEnv);
+            
+            if (File.Exists(iconpath))
+            {
+                Console.WriteLine("file exists");
+            }
+            else
+            {
+                File.Copy("icon.png", iconpath);
+            }
+            MessageBox.Show("Please exit Classic Shell (right click the start button and click exit) before proceeding.");
             System.Diagnostics.Process.Start("Classic Shell Settings.reg");
         }
 

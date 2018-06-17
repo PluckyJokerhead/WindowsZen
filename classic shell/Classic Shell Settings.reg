@@ -27,7 +27,8 @@
 "GlassOverride"=dword:00000000
 "GlassColor"=dword:00ffd200
 "GlassOpacity"=dword:00000028
-"StartButtonPath"="F:\\Download\\Original (Blue).png"
+"StartButtonPath"="%USERPROFILE%\\icon.png"
+"StartButtonType"="CustomButton"
 "EnableGlass"=dword:00000001
 "CustomTaskbar"=dword:00000000
 "TaskbarLook"="Transparent"
