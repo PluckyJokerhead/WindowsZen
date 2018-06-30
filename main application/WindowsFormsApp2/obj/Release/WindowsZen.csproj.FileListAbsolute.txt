@@ -1,0 +1,12 @@
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\bin\Release\WindowsZen.exe.config
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\bin\Release\WindowsZen.exe
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\bin\Release\WindowsZen.pdb
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsZen.csprojAssemblyReference.cache
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsZen.programs.resources
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsFormsApp2.warning1.resources
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsFormsApp2.MainGUI.resources
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsZen.Properties.Resources.resources
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsZen.csproj.GenerateResource.cache
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsZen.csproj.CoreCompileInputs.cache
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsZen.exe
+F:\Documents\GitHub\WindowsZen\main application\WindowsFormsApp2\obj\Release\WindowsZen.pdb

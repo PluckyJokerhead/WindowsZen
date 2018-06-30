@@ -1,0 +1,35 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\IvoSoft\ClassicStartMenu\Settings]
+"Version"=dword:04030001
+"MenuStyle"="Win7"
+"MouseClick"="ClassicMenu"
+"ShiftRight"=dword:00000001
+"AllProgramsMetro"=dword:00000000
+"FoldersFirst"=dword:00000000
+"StartScreenShortcut"=dword:00000000
+"SkinW7"="Tenified"
+"SkinVariationW7"=""
+"SkinOptionsW7"=hex(7):55,00,53,00,45,00,52,00,5f,00,49,00,4d,00,41,00,47,00,\
+  45,00,3d,00,31,00,00,00,53,00,4d,00,41,00,4c,00,4c,00,5f,00,49,00,43,00,4f,\
+  00,4e,00,53,00,3d,00,30,00,00,00,4c,00,41,00,52,00,47,00,45,00,5f,00,46,00,\
+  4f,00,4e,00,54,00,3d,00,30,00,00,00,49,00,43,00,4f,00,4e,00,5f,00,46,00,52,\
+  00,41,00,4d,00,45,00,53,00,3d,00,30,00,00,00,00,00
+"EnableStartButton"=dword:00000001
+"SkipMetro"=dword:00000001
+"MainSortZA"=dword:00000000
+"UserPicturePath"=""
+"InvertMetroIcons"=dword:00000000
+"MainMenuAnimation"="Fade"
+"MainMenuAnimationSpeed"=dword:00000032
+"SubMenuAnimation"="Fade"
+"FontSmoothing"="ClearType"
+"GlassOverride"=dword:00000000
+"GlassColor"=dword:00ffd200
+"GlassOpacity"=dword:00000028
+"StartButtonPath"="%USERPROFILE%\\icon.png"
+"StartButtonType"="CustomButton"
+"EnableGlass"=dword:00000001
+"CustomTaskbar"=dword:00000000
+"TaskbarLook"="Transparent"
+

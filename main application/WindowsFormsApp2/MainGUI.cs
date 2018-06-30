@@ -3,6 +3,8 @@ using System.Windows.Forms;
 using System.Net;
 using System.Runtime.InteropServices;
 using System.IO;
+using System.Threading.Tasks;
+using WindowsZen;
 
 namespace WindowsFormsApp2
 {
@@ -23,8 +25,8 @@ namespace WindowsFormsApp2
             Application.UseWaitCursor = true;
             var client = new WebClient();
             var uri = new Uri("https://sourceforge.net/projects/classicshell/files/latest/download");
-            client.DownloadFileCompleted += (sender, e) => installclassicshell();
             client.DownloadFileAsync(uri, "classicshell.exe");
+            client.DownloadFileCompleted += (sender, e) => installclassicshell();
         }
 
         public void installclassicshell()
@@ -51,8 +53,8 @@ namespace WindowsFormsApp2
             Application.UseWaitCursor = true;
             var client = new WebClient();
             var uri = new Uri("https://github.com/Belphemur/SoundSwitch/releases/download/v4.9/SoundSwitch_v4.9.6733.39597_Release_Installer.exe");
-            client.DownloadFileCompleted += (sender, e) => installSoundSwitch();
             client.DownloadFileAsync(uri, "soundswitch.exe");
+            client.DownloadFileCompleted += (sender, e) => installSoundSwitch();
         }
 
         public void installSoundSwitch()
@@ -68,57 +70,6 @@ namespace WindowsFormsApp2
             Console.WriteLine("Opening it");
             Application.UseWaitCursor = false;
             System.Diagnostics.Process.Start("soundswitch.exe");
-        }
-
-        public void ProgramsWizard()
-        {
-            AllocConsole();
-            bool video = false;
-            bool music = false;
-            bool photo = false;
-            Console.WriteLine("#######################################################################################################################");
-            Console.WriteLine("This command line wizard will help you change the default applications for photos, videos and music to ones you prefer.");
-            Console.WriteLine("#######################################################################################################################");
-            while (video == false)
-            {
-                Console.WriteLine("Choose a video player:");
-                Console.WriteLine("1: Windows 10 Default (Do not change)");
-                Console.WriteLine("2: Windows Media Player");
-                Console.WriteLine("3: VLC");
-                Console.WriteLine("Enter an option: ");
-                int option = Convert.ToInt32(Console.ReadLine());
-
-                if (option == 1)
-                {
-                    Console.WriteLine("The video player will not be changed.");
-                    video = true;
-                }
-                else if (option == 2)
-                {
-                    Console.WriteLine("Windows Media Player will be downloaded, the installer will be run, and it will be set as your default program.");
-                    Console.WriteLine("Continue? (Y/N)");
-                    string continue1 = (Console.ReadLine());
-                    if (continue1 == "Y" || continue1 == "y")
-                    {
-                        //install wmp
-                    }
-                }
-                else if (option == 3)
-                {
-                    Console.WriteLine("VLC media player will be downloaded, the installer will be run, and it will be set as your default program.");
-                    Console.WriteLine("Continue? (Y/N)");
-                    string continue1 = (Console.ReadLine());
-                    if (continue1 == "Y" || continue1 == "y")
-                    {
-                        //install vlc
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Please enter a valid option. (1, 2 or 3");
-                }
-            }
-
         }
 
         //when button 1 is clicked downloadclassicshell function is called
@@ -232,7 +183,8 @@ namespace WindowsFormsApp2
 
         private void button8_Click(object sender, EventArgs e)
         {
-            ProgramsWizard();
+            programs dialog = new programs();
+            dialog.Show();
         }
 
         private void button11_Click(object sender, EventArgs e)
